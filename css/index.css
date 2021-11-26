@@ -1,0 +1,150 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Audiowide', cursive;
+background: url(/istockphoto-1130504588-612x612.jpg);
+background-repeat: no-repeat;
+background-size: 100vw 120vh;
+    height: 150vh;
+    width: 98vw;
+}
+#head{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: rgb(129, 129, 129,0.9);
+    border: 0.5vw solid rgb(129, 129, 129,0.4);
+
+}
+#a{
+    color: black;
+    font-size: 5vw;
+    font-weight: 900;
+    margin-left: 1.8vw;
+    margin-right: 1vw;
+text-shadow: 0px 0px 22px rgb(253, 87, 87);
+}
+#b{
+    font-size: 3vw;
+    font-weight: 700;
+    text-shadow: 0px 0px 22px rgb(253, 87, 87); 
+}
+#nav{
+    margin-top: 0.5vw;
+    float: right; 
+    color: rgb(0, 0, 7);
+       
+}
+#navbar{
+     text-shadow: 0px 0px 5px rgb(151, 11, 11);
+    
+}
+#navbar li{
+   
+    font-size: 1.8vw;
+  margin-right: 5vw;
+    float: left; 
+    list-style-type: none;   
+}
+#navbar li:hover{
+    font-size: 3.3vw;
+}
+#navbar li a{
+    text-decoration: none;
+    color: black;
+}
+#main{
+    height: 100vw;
+}
+#flex{
+    margin-top: 4vw;
+    height: 8vw;
+    margin-top: 1vw;
+}
+#btn{
+    margin-top: 3vw;
+   background-color: rgb(0, 0, 0);
+   text-align: center;
+   font-weight: 900;
+   font-family:'Audiowide', cursive;
+   text-align: center;
+border: 2vw solid rgb(0, 0, 0);
+border-radius: 2vw;
+position: relative;
+animation-name: shazar;
+animation-duration: 20s;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in-out;
+box-shadow: 0px 0px 20px black;
+
+}
+@keyframes shazar {
+    from{
+        margin-left: 0%;
+    }
+    to{
+       margin-left: 55%;
+    }
+}
+#btn a{
+    text-decoration: none;
+    color: rgb(151, 11, 11);
+    font-size: 2vw;
+  
+   
+}
+#cont{
+margin-top: 4vw;
+    overflow: auto;
+    height: 25vw;
+    text-align: center;
+}
+#cont h1{
+    font-size: 3vw;
+}
+#cont div{
+    padding: 0.5vw;
+}
+#cont input{
+    font-family: 'Audiowide', cursive;
+    margin-left: 1vw;
+    width: 40vw;
+    height: 2vw;
+    font-weight: 600;
+}
+#cont button{
+    font-family: 'Audiowide', cursive;
+    font-weight: 600;
+    width: 10vw;
+    height: 2.5vw;
+}
+#footer{
+    margin-top: 50vw;
+}
+#branch{
+    position: absolute;
+  top: 58vw;
+  width: 30vw;
+  height: 10vw;
+}
+#branch h1{
+    font-size: 4vw;
+     text-shadow: 0px 0px 10px black;   
+}
+#branch p{
+    font-size: 1.5vw;
+}
+#why{
+    position: absolute;
+  top: 58vw;
+  right: 0vw;
+  width: 30vw;
+  height: 10vw;
+}
+#why h1{
+    font-size: 4vw; 
+    text-shadow: 0px 0px 10px black;
+}
+#why p{
+    font-size: 1.5vw;
+}
